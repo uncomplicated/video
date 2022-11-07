@@ -22,5 +22,6 @@
                 "Yhd\\Video\\VideoServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
