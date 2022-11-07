@@ -14,7 +14,7 @@
     ],
     "require": {
         "alibabacloud/sdk": "^1.8",
-        "spatie/laravel-medialibrary" : "^7.2"
+        "spatie/laravel-medialibrary" : "8.10.2"
     },
     "extra": {
         "laravel": {
