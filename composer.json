@@ -1,10 +1,10 @@
 {
-    "name": "yhdccc/video",
+    "name": "yhd/video",
     "description": "this is an integrated video class",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Yhdccc\\Video\\": "src/"
+            "Yhd\\Video\\": "src/"
         }
     },
     "authors": [
@@ -13,12 +13,13 @@
         }
     ],
     "require": {
-        "alibabacloud/sdk": "^1.8"
+        "alibabacloud/sdk": "^1.8",
+        "spatie/laravel-medialibrary" : "^7.2"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Yhdccc\\Video\\VideoServiceProvider"
+                "Yhd\\Video\\VideoServiceProvider"
             ]
         }
     }

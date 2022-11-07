@@ -1,6 +1,6 @@
 <?php
 
-namespace Yhdccc\Video;
+namespace Yhd\Video;
 
 use Illuminate\Support\ServiceProvider;
 
